@@ -44,7 +44,7 @@ $dark-color-codebg: #414449 !default; // kai GitHub
   font-style: normal;
   font-display: swap;
   font-weight: 700;
-  src: url('https://cdn.jsdelivr.net/gh/dsrkafuu/dsr-cdn-main@1/fonts/product_sans/product_sans_700.woff2')
+  src: url('/assets/fonts/product_sans_700.woff2')
     format('woff2');
 }
 
@@ -53,6 +53,6 @@ $dark-color-codebg: #414449 !default; // kai GitHub
   font-style: normal;
   font-display: swap;
   font-weight: 400;
-  src: url('https://cdn.jsdelivr.net/gh/dsrkafuu/dsr-cdn-main@1/fonts/fira_code/fira_code_400.woff2')
+  src: url('/assets/fonts/fira_code_400.woff2')
     format('woff2');
 }

@@ -14,22 +14,23 @@ Supported languages: `cs`, `de`, `en`, `eo`, `fr`, `ja`, `nl`, `pl`, `pt-pt`, `z
 
 ## 📑 Table of contents
 
-- [💻 Live demos](#-live-demos)
-- [❗ Notice](#-notice)
-- [🐣 Getting started](#-getting-started)
-- [🆕 Update the theme](#-update-the-theme)
-- [⚙️ Configuration](#%EF%B8%8F-configuration)
-  - [🎨 Favicon](#-favicon)
-  - [❌ License, toc and comments](#-license-toc-and-comments)
-  - [🎵 APlayer](#-aplayer)
-  - [📐 Render LaTeX with KaTex](#-render-latex-with-katex)
-  - [📷 Image zoom and lazyload settings](#-image-zoom-and-lazyload-settings)
-  - [⚓ Markdown render hook](#-markdown-render-hook)
-  - [📨 Comments area](#-comments-area)
-  - [🔧 Custom stylesheet configuration](#-custom-stylesheet-configuration)
-- [✏️ Issue and contributing](#%EF%B8%8F-issue-and-contributing)
-- [📝 License](#-license)
-- [🤝 Annotations](#-annotations)
+- [🍥 Fuji 🍥](#-fuji-)
+  - [📑 Table of contents](#-table-of-contents)
+  - [💻 Live demos](#-live-demos)
+  - [❗ Notice](#-notice)
+  - [🐣 Getting started](#-getting-started)
+  - [🆕 Update the theme](#-update-the-theme)
+  - [⚙️ Configuration](#️-configuration)
+    - [🎨 Favicon](#-favicon)
+    - [❌ License, toc and comments](#-license-toc-and-comments)
+    - [📐 Render LaTeX with KaTex](#-render-latex-with-katex)
+    - [📷 Image zoom and lazyload settings](#-image-zoom-and-lazyload-settings)
+    - [⚓ Markdown render hook](#-markdown-render-hook)
+    - [📨 Comments area](#-comments-area)
+    - [🔧 Custom stylesheet configuration](#-custom-stylesheet-configuration)
+  - [✏️ Issue and contributing](#️-issue-and-contributing)
+  - [📝 License](#-license)
+  - [🤝 Annotations](#-annotations)
 
 ## 💻 Live demos
 
@@ -92,16 +93,6 @@ To disable comment area for specific post, add this in front matter:
 ```toml
 showComments = false # Do not show comments in this post
 ```
-
-### 🎵 APlayer
-
-In-post APlayer supported, you use the `aplayer` shortcode:
-
-```txt
-{{< aplayer urls="/aplayer/fluid.mp3" names="Fluid" artists="Crowander" covers="/aplayer/crowander.jpg" >}}
-```
-
-Checkout the `exampleSite/content/post/aplayer-test.md` for more example usage such as using multiple files.
 
 ### 📐 Render LaTeX with KaTex
 
@@ -203,11 +194,11 @@ You can use `[SITEROOT]/layouts/_default/_markup/render-link.html` to decide whe
 
 ### 📨 Comments area
 
-Theme supports Disqus, utterances and DisqusJS (for Mainland China user)。
+Theme supports Disqus and utterances。
 
 by default, disqus uses `{{ .Permalink }}` as `url`, `{{ .File.ContentBaseName }}` as `identifier`.
 
-Use the `[SITEROOT]/layouts/partials/comment-*.html` to cover `themes/fuji/layouts/partials/comment-*.html`. Then you can customize the url and identifier, or set multiple api key, add more settings for using DisqusJS. If you want to use DisqusJS, please remember to set `disqusJSApi` to anything in your `config.toml` to load CSS.
+Use the `[SITEROOT]/layouts/partials/comment-*.html` to cover `themes/fuji/layouts/partials/comment-*.html`. Then you can customize the url and identifier, or set multiple api key, add more settings.
 
 ### 🔧 Custom stylesheet configuration
 
@@ -255,9 +246,7 @@ Feel free to use the [issue tracker](https://github.com/dsrkafuu/hugo-theme-fuji
 The theme is released under the `Apache License 2.0`, for more information read the [License](https://github.com/dsrkafuu/hugo-theme-fuji/blob/master/LICENSE).
 
 - [Primer CSS - MIT](https://github.com/primer/css/blob/master/LICENSE)
-- [APlayer - MIT](https://github.com/MoePlayer/APlayer/blob/master/LICENSE)
 - [lazysizes - MIT](https://github.com/aFarkas/lazysizes/blob/gh-pages/LICENSE)
-- [DisqusJS - MIT](https://github.com/SukkaW/DisqusJS/blob/master/LICENSE)
 - [ionicons - MIT](https://github.com/ionic-team/ionicons/blob/master/LICENSE)
 - [Fuse.js - Apache-2.0](https://github.com/krisk/Fuse/blob/master/LICENSE)
 - [cloudflare-workers-async-google-analytics - MIT](https://github.com/SukkaW/cloudflare-workers-async-google-analytics/blob/master/LICENSE)

@@ -95,9 +95,10 @@ document.querySelector('.btn .btn-toggle-mode').addEventListener('click', () => 
 
 // search by fuse.js
 function searchAll(key, index, counter) {
+  console.log("'" + key + "'");
   let fuse = new Fuse(index, {
     shouldSort: true,
-    distance: 10000,
+    distance: 100,
     keys: [
       {
         name: 'title',
